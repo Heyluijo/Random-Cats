@@ -4,15 +4,19 @@
     justify-content: center;
     width: 520px;
 }
+
 #render img{
     max-width: 700px;
     min-height: 600px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
 
     #render img{
         max-width: 300px;
         min-height: 200px;
+    }
+    #render{
+        width: 400px;
     }
   }
